@@ -1,37 +1,23 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Results by date</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Results by date">
-      <meta name="keywords" content="HTML,CSS,JavaScript,D3">
-      <script src="http://d3js.org/d3.v3.min.js"></script> 
-      <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
-      <script type="text/javascript" src="https://github.com/BK01/stat-16-test/blob/master/js/vis.js"></script>
-   </head>
-   <body>
-
-      <div class="container">
-
-        <h2 align="center">
-           Results by Date
-        </h2>
-
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <p><strong><font color="red">[Legend]</font></strong> </p>
-          </div>
-        </div>
-
-
-        <div id="chart-container">
-          <script type="text/javascript">
-            makeCharts("https://raw.githubusercontent.com/BK01/stat-16-test/master/data/single.csv");
-          </script>
-        </div>
-
-
-      </div>
-
-   </body>
+<head>
+	<title>Stats by Date</title>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+</head>
+<body>
+<div id="chartContainer">
+		<script type="text/javascript">
+			var svg = dimple.newSvg("#chartContainer",600,410);
+			d3.csv("https://raw.githubusercontent.com/BK01/stat-16-test/master/data/single2.csv",function(data)
+			{
+				var chart = new dimple.chart(svg,data);
+				chart.addCategoryAxis("x","date");
+				chart.addMeasureAxis("y","number");
+				chart.addSeries("element",dimple.plot.bar);
+				chart.draw();
+			});
+		</script>
+	</div>
+</body>
 </html>
