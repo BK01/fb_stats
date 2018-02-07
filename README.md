@@ -1,9 +1,10 @@
 Repo and contents are built for training purposes only. 
 
 Contents include JavaScript (d3), statistics and GitHub experiments.
+----------------------------------------------------------------------
+
 
 Available @: https://bk01.github.io/fb_stats/
-
 
 | Date | A | B | S | C | L |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
