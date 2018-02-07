@@ -1,3 +1,1 @@
-# fb_stats
-
-Statistics on 2018 FB
+Statistics on FB 2018
