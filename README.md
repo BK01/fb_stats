@@ -2,7 +2,6 @@ Repo built for training purposes on JavaScript (d3) and GitHub.
 
 Available @: https://bk01.github.io/fb_stats/
 
-Statistics on FB 2018
 
 | Date | A | B | S | C | L |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
