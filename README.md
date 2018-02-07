@@ -1,4 +1,4 @@
-Repo and contents are built for training purposes only. 
+Repo contents are for training purposes only. 
 
 Contents include JavaScript (d3) and simulated statistics.
 
