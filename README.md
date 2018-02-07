@@ -1,6 +1,8 @@
 Repo and contents are built for training purposes only. 
 
 Contents include JavaScript (d3), fictitious statistics and GitHub experiments.
+
+
 <br>///////////////////////////////////////////////////////
 
 
