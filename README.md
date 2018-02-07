@@ -1,3 +1,5 @@
+Available @: https://bk01.github.io/fb_stats/
+
 Statistics on FB 2018
 
 | Date | A | B | S | C | L |
