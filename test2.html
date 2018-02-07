@@ -9,12 +9,12 @@
 <div id="chartContainer">
 		<script type="text/javascript">
 			var svg = dimple.newSvg("#chartContainer",600,410);
-			d3.csv("https://github.com/BK01/stat-16-test/blob/master/data/single.csv",function(data)
+			d3.csv("https://github.com/BK01/stat-16-test/blob/master/data/single2.csv",function(data)
 			{
 				var chart = new dimple.chart(svg,data);
 				chart.addCategoryAxis("x","date");
-				chart.addMeasureAxis("y","A");
-				chart.addSeries("A",dimple.plot.bar);
+				chart.addMeasureAxis("y","number");
+				chart.addSeries("element",dimple.plot.bar);
 				chart.draw();
 			});
 		</script>
