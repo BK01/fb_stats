@@ -6,7 +6,7 @@ Contents include JavaScript (d3), fictitious statistics and GitHub experiments.
 <br>///////////////////////////////////////////////////////
 
 
-Available @: https://bk01.github.io/fb_stats/
+Available @: https://bk01.github.io/stat-16-test/
 
 | Date | A | B | S | C | L |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
