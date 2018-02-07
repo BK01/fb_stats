@@ -14,8 +14,8 @@
 			{
 				console.log("data loaded");
 				var chart = new dimple.chart(svg,data);
-				chart.addCategoryAxis("x","Element");
-				chart.addMeasureAxis("y","Number");
+				chart.addCategoryAxis("x","date");
+				chart.addMeasureAxis("y","A");
 				chart.addSeries("A",dimple.plot.bar);
 				chart.draw();
 			});
