@@ -1,10 +1,6 @@
 Repo and contents are built for training purposes only. 
 
-Contents include JavaScript (d3), fictitious statistics and GitHub experiments.
-
-
-<br>///////////////////////////////////////////////////////
-
+Contents include JavaScript (d3), simulated statistics and GitHub experiments.
 
 Available @: https://bk01.github.io/stat-16-test/
 
