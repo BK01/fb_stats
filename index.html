@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Results by date</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Results by date">
+      <meta name="keywords" content="HTML,CSS,JavaScript,D3">
+      <link rel="stylesheet" type="text/css" href="../css/main.css">
+      <link rel="stylesheet" type="text/css" href="../lib/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script type="text/javascript" src="../lib/d3/3.5.17/d3.min.js"></script>
+      <script type="text/javascript" src="../lib/moment/2.18.1/moment.js"></script>
+      <script type="text/javascript" src="../js/latency-charts.js"></script>
+   </head>
+   <body>
 
+      <div class="container">
+
+        <h2 align="center">
+           Results by Date
+        </h2>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p><strong><font color="red">[Legend]</font></strong> </p>
+          </div>
+        </div>
+
+
+        <div id="chart-container">
+          <script type="text/javascript">
+            makeCharts("https://raw.githubusercontent.com/BK01/stat-16-test/master/data/single.csv");
+          </script>
+        </div>
+
+
+      </div>
+
+   </body>
+</html>
