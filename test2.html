@@ -4,7 +4,6 @@
 	<title>Stats by Date</title>
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
-
 </head>
 <body>
 <div id="chartContainer">
@@ -12,7 +11,6 @@
 			var svg = dimple.newSvg("#chartContainer",600,410);
 			d3.csv("https://github.com/BK01/stat-16-test/blob/master/data/single.csv",function(data)
 			{
-				console.log("data loaded");
 				var chart = new dimple.chart(svg,data);
 				chart.addCategoryAxis("x","date");
 				chart.addMeasureAxis("y","A");
