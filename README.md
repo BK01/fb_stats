@@ -1,4 +1,4 @@
-Repo and contents are built for training purposes on JavaScript (d3) and GitHub.
+Repo and contents are built for training purposes on JavaScript (d3), statistics and GitHub.
 
 Available @: https://bk01.github.io/fb_stats/
 
